@@ -60,9 +60,9 @@ def read_default_config(filename=None):
             raise IOError("Home directory not defined, don't know where to look for config file")
 
         if platform.system() == "Darwin":
-            location = 'Library/Application Support/bitbean/bitbean.conf'
+            location = 'Library/Application Support/BitBean/BitBean.conf'
         else:
-            location = '.bitbean/bitbean.conf'
+            location = '.BitBean/BitBean.conf'
         filename = os.path.join(home, location)
 
     elif filename.startswith("~"):
