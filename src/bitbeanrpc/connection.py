@@ -40,7 +40,7 @@ class bitbeanConnection(object):
     - *host* -- bitbean JSON-RPC host.
     - *port* -- bitbean JSON-RPC port.
     """
-    def __init__(self, user, password, host='localhost', port=15004,
+    def __init__(self, user, password, host='localhost', port=22461,
                  use_https=False):
         """
         Create a new bitbean server connection.
